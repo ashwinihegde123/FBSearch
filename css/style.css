@@ -1,0 +1,83 @@
+.collapsible {
+    background-color: #4266b2;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: auto;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+ .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: auto;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+input#searchPages {
+    width: 60%;
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.form-search h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.search-button {
+    margin-top: 4px;
+    background-color: #4266b2;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.page-results {
+    width: 70%;
+    float: left;
+}
+
+.heart {
+    fill: #4266b2;
+    position: relative;
+    top: 5px;
+    width: 3%;
+    float: right;
+  }
+  
+  .favourite {
+    fill: red;
+  }
+
+  .favouriteFilter svg{
+    fill: red;
+    width: 2%; 
+    margin-left: 10px;
+    cursor: pointer;     
+  }
+
+  .favourite-results{
+      float: left;
+      width: 25%;
+  }
