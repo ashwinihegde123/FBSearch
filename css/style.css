@@ -1,4 +1,4 @@
-.collapsible {
+.collapsible, .details{
     background-color: #4266b2;
     color: white;
     cursor: pointer;
@@ -19,6 +19,15 @@
 .content {
     padding: 18px;
     display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: auto;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.content-fav {
+    padding: 18px;
     overflow: hidden;
     background-color: #f1f1f1;
     width: auto;
@@ -55,7 +64,6 @@ input#searchPages {
 
 .page-results {
     width: 70%;
-    float: left;
 }
 
 .heart {
@@ -78,6 +86,16 @@ input#searchPages {
   }
 
   .favourite-results{
-      float: left;
       width: 25%;
+      max-height: 1000px;
+      overflow: auto;
+  }
+
+  .load-more {
+      display: none;
+  }
+
+  .result-container {
+      width: 100%;
+      display: flex;
   }
